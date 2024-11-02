@@ -1,0 +1,21 @@
+.head{
+    height:8vh;
+    width:100vw;
+    background-color:beige;
+}
+.cometx{
+    color:green;
+    font-size:40px;
+    font-weight:bold;
+    padding-top:20px;
+    float:left;
+    padding-left:20px;
+}
+.link{
+    float:right;
+    padding-top:35px;
+}
+a.nav{
+    padding-right:10px;
+    text-decoration:none;
+    font-size:20px;
