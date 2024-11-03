@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="Frontend Mastery - Learn Web Development">
+<meta name="description" content="Master HTML, CSS, JavaScript, and more with our comprehensive courses and tutorials.">
+<meta name="keywords" content="frontend development, web development, HTML, CSS, JavaScript, tutorials, courses">
+<meta name="author" content="Comet">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="1 days">
+<meta property="og:title" content="Frontend Mastery - Learn Web Development">
+<meta property="og:description" content="Master HTML, CSS, JavaScript, and more with our comprehensive courses and tutorials.">
+<meta property="og:url" content="(link unavailable)">
+<meta property="og:image" content="(image link unavailable)">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Frontend Mastery - Learn Web Development">
+<meta name="twitter:description" content="Master HTML, CSS, JavaScript, and more with our comprehensive courses and tutorials.">
+<meta name="twitter:image" content="(image link unavailable)">
+
+    <title>Frontend Mastery</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        /* Global Styles */
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        /* Main Styles */
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+        
+        .hero {
+            background-color: #2196f3;
+            color: white;
+            padding: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hero button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.2s ease;
+        }
+        
+        .hero button:hover {
+            background-color: #444;
+        }
+        
+        /* Section Styles */
+        
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #2196f3;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            color:white;
+        }
+        
+        section h2 {
+            margin-top: 0;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+           
+        }
+        
+        li {
+            margin-bottom: 10px;
+            
+        }
+        
+        /* Footer Styles */
+        
+        footer {
+            background-color: #2196f3;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            clear: both;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            bottom:0px;
+        }
+        .right{
+            padding-left:36vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="cometx">Cometx☄️☄️</div>
+        <div class="link">
+            <a href="index.html" class="nav">Home</a>
+            <a href="courses.html" class="nav">Courses</a>
+            <a href="https://whatsapp.com/channel/0029VajOIABGk1FpDdVVKX1Y" class="nav">Community</a>
+        </div>
+    </div>
+    <main>
+        <section class="hero">
+            <h1>Learn Frontend Web Development</h1>
+            <p>Master HTML, CSS, JavaScript, and more</p>
+           <a href="courses.html"> <button>Get Started</button></a>
+        </section>
+        <section id="courses">
+            <h2>Popular Courses</h2>
+            <ul>
+                <li>HTML/CSS Fundamentals</li>
+                <li>JavaScript Essentials</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </section>
+        <section id="tutorials">
+            <h2>Latest Tutorials</h2>
+            <ul>
+                <li>Building a Todo List App</li>
+                <li>Creating a Responsive Navigation</li>
+                <li>Introduction to React</li>
+            </ul>
+        </section>
+        <section id="community">
+            <h2>Join Our Community</h2>
+            <p>Connect with other developers and get support</p>
+           <a href="https://whatsapp.com/channel/0029VajOIABGk1FpDdVVKX1Y"> <button>Join Now</button></a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Frontend Mastery</p>
+    </footer>
+    <script>
+        // Add event listener to get started button
+        document.querySelector('.hero button').addEventListener('click', () => {
+            alert('Welcome to Frontend Mastery!');
+        });
+    </script>
+</body>
+</html>
