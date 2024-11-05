@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lesson 2: HTML Tags</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="lesson-style.css"/>
+</head>
+<body>
+<div class="header">
+<h1>Lesson 2: HTML Tags</h1>
+</div>
+<div class="container">
+<div class="main-content">
+<h2>What are HTML Tags?</h2>
+<p>HTML tags are like labels that tell web browsers how to display content on a web page. They're surrounded by <code>&lt; &gt;</code> symbols and usually come in pairs.</p>
+
+<h2>Types of HTML Tags</h2>
+<h3>Paired Tags</h3>
+<p>Have an opening and closing tag</p>
+<p>Surround content</p>
+<p>Example: <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code></p>
+
+<h3>Self-Closing Tags</h3>
+<p>Have only one tag</p>
+<p>Do not surround content</p>
+<p>Example: <code>&lt;img src="image.jpg" /&gt;</code></p>
+
+<h3>Empty Tags</h3>
+<p>Have only one tag</p>
+<p>Do not surround content</p>
+<p>Example: <code>&lt;hr&gt;</code></p>
+
+<h2>Basic HTML Tags</h2>
+<h3>Headings</h3>
+<p><code>&lt;h1&gt;</code> - Main heading</p>
+<p><code>&lt;h2&gt;</code> - Subheading</p>
+<p><code>&lt;h3&gt;</code> - Sub-subheading</p>
+
+<h3>Text</h3>
+<p><code>&lt;p&gt;</code> - Paragraph</p>
+<p><code>&lt;span&gt;</code> - Small text section</p>
+
+<h3>Links</h3>
+<p><code>&lt;a&gt;</code> - Hyperlink</p>
+
+<h3>Images</h3>
+<p><code>&lt;img&gt;</code> - Image</p>
+
+<h3>Lists</h3>
+<p><code>&lt;ul&gt;</code> - Unordered list</p>
+<p><code>&lt;ol&gt;</code> - Ordered list</p>
+<p><code>&lt;li&gt;</code> - List item</p>
+
+<h3>Divisions</h3>
+<p><code>&lt;div&gt;</code> - Content section</p>
+
+<h2>Semantic HTML Tags</h2>
+<h3>Structural Elements</h3>
+<p><code>&lt;header&gt;</code> - Page header</p>
+<p><code>&lt;footer&gt;</code> - Page footer</p>
+<p><code>&lt;nav&gt;</code> - Navigation menu</p>
+<p><code>&lt;main&gt;</code> - Main content</p>
+<p><code>&lt;section&gt;</code> - Content section</p>
+<p><code>&lt;article&gt;</code> - Article</p>
+<p><code>&lt;aside&gt;</code> - Sidebar</p>
+
+<h2>Best Practices</h2>
+<p>1. Use lowercase tags.</p>
+<p>2. Close tags in reverse order.</p>
+<p>3. Use semantic tags for better structure.</p>
+
+<h2>Example Code</h2>
+<pre>
+<code>
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;title&gt;HTML Tags&lt;/title&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;h1&gt;Main Heading&lt;/h1&gt;
+
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+&lt;a href="#"&gt;Visit Our Website&lt;/a&gt;
+
+&lt;img src="image.jpg" alt="Our Company Logo"&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;Item 1&lt;/li&gt;
+
+&lt;li&gt;Item 2&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;div&gt;This is a division.&lt;/div&gt;
+
+&lt;span&gt;This is a span.&lt;/span&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code>
+</pre>
+<button class="btn" onclick="copyCode()">Copy Example Code</button>
+
+<h2>Editors</h2>
+<p>Here are some popular code editors for writing HTML:</p>
+<h3>Desktop Editors</h3>
+<ul>
+<li>Visual Studio Code (VS Code)</li>
+<li>Sublime Text</li>
+<li>Atom</li>
+<li>Brackets</li>
+<li>Notepad++</li>
+</ul>
+<h3>Android Editors</h3>
+<ul>
+<li>HTML Editor (Google Play)</li>
+<li>Code Editor (Google Play)</li>
+<li>HTML Writer (Google Play)</li>
+<li>DroidScript (Google Play)</li>
+</ul>
+<h3>iOS Editors</h3>
+<ul>
+<li>Textastic (App Store)</li>
+<li>HTML Editor (App Store)</li>
+<li>Code Editor (App Store)</li>
+<li>HTML Writer (App Store)</li>
+</ul>
+
+<h2>Exercises</h2>
+<p>1. Create a web page with headings, paragraphs, and links.</p>
+<p>2. Add images and lists to the page.</p>
+<p>3. Experiment with semantic HTML tags.</p>
+</div>
+</div>
+<div style="text-align: center; padding: 20px; background-color: #2196F3; color: #ffffff;">
+&copy; 2024 Frontend Mastery-Cometx☄️☄️
+</div>
+
+<script>
+function copyCode() {
+var code = document.querySelector('pre code').textContent;
+navigator.clipboard.writeText(code).then(() => {
+alert('Code copied to clipboard!');
+});
+}
+</script>
+</body>
+  </html
